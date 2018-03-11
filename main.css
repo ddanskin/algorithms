@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #044e64;
+    color: #c8f7c5;
+    padding: 0 5%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+}
+
+#sorts {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+h1 {
+    background: #044e64;
+    color: #c8f7c5;
+    padding: 0 5%;
+}
