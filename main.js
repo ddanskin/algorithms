@@ -14,6 +14,7 @@ function bubbleSort(arr) {
             }
         }
     } while (items_swapped);
+    return arr;
 }
 
 // Insertion sort
@@ -21,12 +22,27 @@ function insertionSort(arr) {
     let n = arr.length;
     for (let i = 0; i < n; i++) {
         let prev = arr[i];
-        while (arr[i+1] < prev) {
+        let curr = arr[i+1];
+        while (curr < prev) {
             let temp = prev;
-            prev = arr[i+1];
-            arr[i+1] = temp;
+            prev = curr;
+            curr = temp;
         }
     }
+    return arr;
 }
 
+// Selection sort
+function selectionSort(arr) {
+   return arr;
+}
 
+// Merge sort
+function mergeSort(arr) {
+    return arr;
+}
+
+// Quick sort
+function quickSort(arr) {
+    return arr;
+}
