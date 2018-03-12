@@ -1,9 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin 0;
+}
 header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #044e64;
     color: #c8f7c5;
-    padding: 0 5%;
+}
+
+header h1 {
+    text-align: center;
 }
 
 nav {
@@ -23,7 +32,6 @@ nav a:hover {
 #sorts {
     display: flex;
     flex-direction: column;
-    padding: 0 5%;
 }
 
 h1 {
