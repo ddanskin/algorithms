@@ -7,74 +7,79 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <header>
-            <h1>Sorting Algorithms</h1>
-            <nav>
-                <a href="#bubble-sort">Bubble Sort</a>
-                <a href="#insertion-sort">Insertion Sort</a>
-                <a href="#selection-sort">Selection Sort</a>
-                <a href="#merge-sort">Merge Sort</a>
-                <a href="#quick-sort">Quick Sort</a>
-                <a href="#sort-animations">Visual Examples</a>
-            </nav>
-        </header>
-        <section id="sorts">
-            <section id="bubble-sort">
-                <h1>Bubble Sort</h1>
-                <ul>
-                    <li>Bubble sort has worst case and average case complexity 
-                        O(n^2)</li>
-                    <li>It is not practical when N is large</li>
-                    <li>Best case complexity is O(n), when list is already 
-                        sorted</li>
-                </ul>
+        <div id="container">
+            <header>
+                <h1>Sorting Algorithms</h1>
+                <nav>
+                    <a href="#bubble-sort">Bubble Sort</a>
+                    <a href="#insertion-sort">Insertion Sort</a>
+                    <a href="#selection-sort">Selection Sort</a>
+                    <a href="#merge-sort">Merge Sort</a>
+                    <a href="#quick-sort">Quick Sort</a>
+                    <a href="#sort-animations">Visual Examples</a>
+                </nav>
+            </header>
+            <section id="sorts">
+                <section id="bubble-sort">
+                    <h1>Bubble Sort</h1>
+                    <ul>    
+                        <li>Bubble sort has worst case and average case 
+                            complexity O(n^2)</li>
+                        <li>It is not practical when N is large</li>
+                        <li>Best case complexity is O(n), when list is already 
+                            sorted</li>
+                    </ul>
+                </section>
+                <section id="insertion-sort">
+                    <h1>Insertion Sort</h1>
+                    <ul>
+                        <li>Insertion sort has worst case and average case 
+                            complexity O(n^2)</li>
+                        <li>Works best with small data sets or data sets that 
+                            are already mostly sorted</li>
+                        <li>Best case performance when list is mostly sorted is 
+                            O(n) comparisons, O(1) swaps</li>
+                    </ul>
+                </section>
+                <section id="selection-sort">
+                    <h1>Selection Sort</h1>
+                    <ul>
+                        <li>Selection sort has worst case and average case 
+                            complexity 0(n^2)</li>
+                        <li>It performs poorly on large data sets and it 
+                            generally performs worse than insertion sort</li>
+                        <li>Best case performance is O(n^2), but it can have
+                            performance advantage over other more complicated
+                            algorithms when auxiliary memory is limited</li>
+                    </ul>
+                </section>
+                <section id="merge-sort">
+                    <h1>Merge Sort</h1>
+                    <ul>    
+                        <li>Merge sort's worst case and average case complexity 
+                            is 0(n log n)</li>
+                        <li>Typical best case complexity is 0(n log n), but 
+                            natural variant is 0(n)</li>
+                        <li>more text here</li>
+                    </ul>
+                </section>
+                <section id="quick-sort">
+                    <h1>Quick Sort</h1>
+                    <ul>
+                        <li>worst complexity</li>
+                        <li>best complexity</li>
+                        <li>more info</li>
+                    </ul>
+                </section>
             </section>
-            <section id="insertion-sort">
-                <h1>Insertion Sort</h1>
-                <ul>
-                    <li>Insertion sort has worst case and average case 
-                        complexity O(n^2)</li>
-                    <li>Works best with small data sets or data sets that are 
-                        already mostly sorted</li>
-                    <li>Best case performance when list is mostly sorted is O(n) 
-                        comparisons, O(1) swaps</li>
-                </ul>
+            <section id="sort-animations">
+                <h1>Visual Examples</h1>
+                <div></div>
             </section>
-            <section id="selection-sort">
-                <h1>Selection Sort</h1>
-                <ul>
-                    <li>Selection sort has worst case and average case 
-                        complexity 0(n^2)</li>
-                    <li>It performs poorly on large data sets and it generally 
-                        performs worse than insertion sort</li>
-                    <li>Best case performance is O(n^2), but it can have 
-                        performance advantage over other more complicated 
-                        algorithms when auxiliary memory is limited</li>
-                </ul>
-            </section>
-            <section id="merge-sort">
-                <h1>Merge Sort</h1>
-                <ul>
-                    <li>Merge sort's worst case and average case complexity is 
-                        0(n log n)</li>
-                    <li>Typical best case complexity is 0(n log n), but natural
-                    variant is 0(n)</li>
-                    <li></li>
-                </ul>
-            </section>
-            <section id="quick-sort">
-                <h1>Quick Sort</h1>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>
-        </section>
-        <section id="sort-animations">
-            <p>insert sorting animation with drop down sort selector</p>
-        </section>
-        <footer></footer>
+            <footer>
+                <a href="#sorts">Back to Top</a>
+            </footer>
+        </div>
         <script src="main.js"></script>
     </body>
 </html>
