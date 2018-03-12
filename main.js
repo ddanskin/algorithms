@@ -1,4 +1,3 @@
-
 // Bubble sort
 function bubbleSort(arr) {
     let n = arr.length;
@@ -21,12 +20,12 @@ function bubbleSort(arr) {
 function insertionSort(arr) {
     let n = arr.length;
     for (let i = 0; i < n; i++) {
-        let prev = arr[i];
-        let curr = arr[i+1];
-        while (curr < prev) {
-            let temp = prev;
-            prev = curr;
-            curr = temp;
+        let curr = i;
+        while ( i != 0 && arr[curr] < arr[curr-1]) {
+            let temp = arr[curr];
+            arr[curr] = arr[curr-1];
+            arr[curr-1] = temp;
+            curr--;
         }
     }
     return arr;
