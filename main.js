@@ -33,7 +33,18 @@ function insertionSort(arr) {
 
 // Selection sort
 function selectionSort(arr) {
-   return arr;
+    for (let i = 0; i < arr.length) {
+        let min;
+        for (let j = i; j < arr.length; j++) {
+            if (min = undefined || arr[j] < min) {
+                min = arr[j];
+            }
+        }
+        let temp = arr[i];
+        arr[i] = min;
+        min = temp;
+    }
+    return arr;
 }
 
 // Merge sort
