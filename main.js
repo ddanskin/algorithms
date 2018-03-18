@@ -33,7 +33,7 @@ function insertionSort(arr) {
 
 // Selection sort
 function selectionSort(arr) {
-    for (let i = 0; i < arr.length) {
+    for (let i = 0; i < arr.length; i++) {
         let min;
         for (let j = i; j < arr.length; j++) {
             if (min = undefined || arr[j] < min) {
